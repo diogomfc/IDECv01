@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_cursos" value="name:id;datatype:int,name:cursos;datatype:string,name:valores;datatype:string" />
+	<infoitem key="UD_rs_disciplinas" value="name:id;datatype:int,name:disciplinas;datatype:string" />
+	<infoitem key="UD_rs_turmas" value="name:id;datatype:int,name:polos;datatype:string,name:turma;datatype:string,name:dataInicio;datatype:date,name:dataFinal;datatype:date,name:status;datatype:string" />
+	<infoitem key="UD_rs_representantes" value="name:id;datatype:int,name:nome;datatype:string" />
+	<infoitem key="UD_rs_polos" value="name:id;datatype:int,name:polos;datatype:string,name:endereco;datatype:string" />
+</info>

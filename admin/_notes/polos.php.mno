@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ListarPolos" value="name:id;datatype:int,name:polos;datatype:string,name:endereco;datatype:string" />
+</info>

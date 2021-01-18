@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id_curso;datatype:int,name:cursos;datatype:string,name:valores;datatype:string,name:disciplinas;datatype:string,name:cargaHoraria;datatype:string" />
+</info>

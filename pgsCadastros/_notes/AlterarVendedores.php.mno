@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_AlterarVendedores" value="name:id;datatype:int,name:code;datatype:string,name:cpf;datatype:string,name:rg;datatype:string,name:arquivo;datatype:string,name:nome;datatype:string,name:nascimento;datatype:string,name:sexo;datatype:string,name:estado_civil;datatype:string,name:endereco;datatype:string,name:numero_end;datatype:string,name:complemento_end;datatype:string,name:bairro;datatype:string,name:cep;datatype:string,name:cidade;datatype:string,name:estado;datatype:string,name:tel_residencial;datatype:string,name:celular;datatype:string,name:email;datatype:string,name:localTrabalho;datatype:string,name:formacaoEscolar;datatype:string,name:obs;datatype:string" />
+</info>

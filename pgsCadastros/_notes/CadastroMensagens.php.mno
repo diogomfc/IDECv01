@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_mensagem" value="name:id;datatype:int,name:paraPessoa;datatype:string,name:mensagem;datatype:string,name:codeUsuario;datatype:string" />
+</info>

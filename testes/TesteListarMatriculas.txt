@@ -1,0 +1,32 @@
+<?php 
+$sql_1 = mysql_query("SELECT * FROM cursos");
+ if (mysql_num_rows($sql_1) == ''){
+	  echo "<br><br>Não existe nenhum curso cadastrado no momento!";
+}else{
+?>
+<table width="620" border="0">
+<?php while($res_1 = mysql_fetch_array($sql_1)){?>
+
+<tr><td width="614">Cursos: <?php echo $curso = $res_1['curso']; ?> </tr>
+<tr>
+  <td>
+  <textarea disabled="disabled" name="textarea" id="textarea" cols="100" rows="5" >
+ 
+    <?php 
+  $sql_2 = mysql_query("SELECT * FROM disciplinas WHERE curso = '$curso'");
+     while($res_2 = mysql_fetch_array($sql_2)){
+	   
+	   $professor = $res_2['professor'];
+	   
+	    $sql_3 = mysql_query("SELECT * FROM professores WHERE code = '$professor'");	   
+	 while($res_3 = mysql_fetch_array($sql_3)){
+  ?>
+  <?php echo $res_2['disciplina']; ?> - <?php echo $res_3['nome']; ?> <?php echo $res_3['code']; ?>	
+    <?php }} ?>  
+  </textarea>
+  </td>
+</tr>
+<?php } ?>
+</table>
+<br />
+<?php }?>

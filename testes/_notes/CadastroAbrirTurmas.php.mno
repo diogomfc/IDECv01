@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RS_TURMAS" value="name:id;datatype:int,name:polos;datatype:string,name:turma;datatype:string,name:dataInicio;datatype:date,name:dataFinal;datatype:date,name:status;datatype:string" />
+	<infoitem key="UD_rs_polos" value="name:id;datatype:int,name:polos;datatype:string,name:endereco;datatype:string" />
+</info>

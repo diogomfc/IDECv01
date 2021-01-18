@@ -1,0 +1,4 @@
+CREATE  TABLE `test`.`fotos` (
+  `idfoto` INT NOT NULL AUTO_INCREMENT ,
+  `foto` VARCHAR(150) NULL ,
+  PRIMARY KEY (`idfoto`) );

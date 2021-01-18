@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_abrirTurmas" value="name:id;datatype:int,name:polos;datatype:string,name:turma;datatype:string,name:dataInicio;datatype:date,name:dataFinal;datatype:date,name:status;datatype:string" />
+</info>
